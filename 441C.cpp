@@ -12,7 +12,6 @@ using namespace std;
 #define rep(i,n) for(ll i=0;i<n;i++)
 #define repi(i,s,n) for(ll i=s;i<n;i++)
 int n, m, k;
-vector<vector<pair<int, int>>> v;
 int main(){ios :: sync_with_stdio (false);
     cin >>n>>m>>k;
     int no = (n*m)/k;
